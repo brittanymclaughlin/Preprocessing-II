@@ -1,1 +1,16 @@
 // Mixins in here
+.Flexit(@justify){
+    display:flex;
+    justify-content: @justify;
+}
+.Buttonit(@color,@textcolor){
+    background-color:darken(@color,12%);
+    color:@textcolor;
+    border-radius:15px;
+    font-weight:bold;
+    text-align:center;
+    padding:5%;
+    width:80%;
+    font-size:1.8rem;
+    margin:auto, 4%;
+}

@@ -1,1 +1,35 @@
 // Navigation Styles here
+#wrap{
+    border-bottom:2px dashed @navigation-border;
+    
+    #header{
+        .Flexit(center);
+        max-width:800px;
+        width:100%;
+        margin:0 auto;
+        padding-top:2%;
+
+        #mainnav{
+            .Flexit(flex-end);
+            width:60%;
+            a{
+                text-decoration: none;
+                text-transform: none;
+                color:@font-color;
+                margin-top:5%;
+                margin-right:2%;
+                margin-left:10%;
+                padding-bottom:7%;
+                font-size:1.6rem;
+            }
+            a:last-child{
+                margin-right:8%;
+            }
+        }
+        #logo{
+            flex-grow: 4;
+            padding-top:1%;
+        }
+
+    }
+}
